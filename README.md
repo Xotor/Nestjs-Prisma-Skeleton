@@ -41,6 +41,16 @@
   
   Edit main.ts like described
 
+### Adding Prisma
 
+  https://docs.nestjs.com/recipes/prisma
 
+  npm install prisma --save-dev
+  npx prisma
+  npx prisma init
 
+  Edit schema.prisma and .env
+
+  npx prisma migrate dev --name init
+
+  npm install @prisma/client
