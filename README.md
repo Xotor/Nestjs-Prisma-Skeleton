@@ -12,7 +12,7 @@
 
   https://docs.nestjs.com/techniques/performance
 
-  npm i --save @nestjs/platform-fastify
+  npm i @nestjs/platform-fastify
 
   Edit main.ts like described
 
@@ -31,6 +31,16 @@
   UPDATE package.json (1994 bytes)
   UPDATE src/app.module.ts (308 bytes)
   ✔ Packages installed successfully.
+
+### Adding swagger
+
+  https://docs.nestjs.com/openapi/introduction
+  
+  npm install --save @nestjs/swagger
+  npm i @fastify/static
+  
+  Edit main.ts like described
+
 
 
 
