@@ -17,20 +17,32 @@
   Edit main.ts like described
 
 ### Adding example resource
-  nest g resource blog
-  ? What transport layer do you use? REST API
-  ? Would you like to generate CRUD entry points? Yes
-  CREATE src/blog/blog.controller.spec.ts (556 bytes)
-  CREATE src/blog/blog.controller.ts (883 bytes)
-  CREATE src/blog/blog.module.ts (241 bytes)
-  CREATE src/blog/blog.service.spec.ts (446 bytes)
-  CREATE src/blog/blog.service.ts (607 bytes)
-  CREATE src/blog/dto/create-blog.dto.ts (30 bytes)
-  CREATE src/blog/dto/update-blog.dto.ts (169 bytes)
-  CREATE src/blog/entities/blog.entity.ts (21 bytes)
-  UPDATE package.json (1994 bytes)
-  UPDATE src/app.module.ts (308 bytes)
-  ✔ Packages installed successfully.
+
+$ nest g resource user
+? What transport layer do you use? REST API
+? Would you like to generate CRUD entry points? Yes
+CREATE src/user/user.controller.spec.ts (556 bytes)
+CREATE src/user/user.controller.ts (883 bytes)
+CREATE src/user/user.module.ts (241 bytes)
+CREATE src/user/user.service.spec.ts (446 bytes)
+CREATE src/user/user.service.ts (607 bytes)
+CREATE src/user/dto/create-user.dto.ts (30 bytes)
+CREATE src/user/dto/update-user.dto.ts (164 bytes)
+CREATE src/user/entities/user.entity.ts (21 bytes)
+UPDATE src/app.module.ts (369 bytes)
+
+$ nest g resource post
+? What transport layer do you use? REST API
+? Would you like to generate CRUD entry points? Yes
+CREATE src/post/post.controller.spec.ts (556 bytes)
+CREATE src/post/post.controller.ts (883 bytes)
+CREATE src/post/post.module.ts (241 bytes)
+CREATE src/post/post.service.spec.ts (446 bytes)
+CREATE src/post/post.service.ts (607 bytes)
+CREATE src/post/dto/create-post.dto.ts (30 bytes)
+CREATE src/post/dto/update-post.dto.ts (164 bytes)
+CREATE src/post/entities/post.entity.ts (21 bytes)
+UPDATE src/app.module.ts (430 bytes)
 
 ### Adding swagger
 
