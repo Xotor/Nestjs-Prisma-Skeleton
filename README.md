@@ -66,3 +66,7 @@ UPDATE src/app.module.ts (430 bytes)
   npx prisma migrate dev --name init
 
   npm install @prisma/client
+
+  ## After checkout:
+
+  npx prisma generate
